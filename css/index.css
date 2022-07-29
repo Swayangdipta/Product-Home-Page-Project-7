@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+nav{
+    width: 90vw;
+    height: 80px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img{
+    width: 90px;
+}
+
+nav img:last-child{
+    width: 250px;
+}
+
+.nav-items{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 75px;
+}
+
+.nav-item{
+    font-size: 18px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.active-item{
+    font-weight: 900;
+    color: #fe5e35;
+}
+
+.intro-section{
+    width: 90vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 55% 45%;
+}
+
+.left-section{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.left-section h3{
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.left-section h3 img {
+    width: 40px;
+}
+
+.left-section h1{
+    font-family: 'Fredoka one';
+    font-size: 60px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.sub-headlines{
+    width: max-content;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.sub-headline{
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.sub-headline img{
+    background: #fe5e35;
+    border-radius: 50px;
+    width: 15px;
+    padding: 5px;
+    margin-right: 15px;
+}
+
+.text{
+    width: 90%;
+    font-size: 12px;
+    margin-top: 50px;
+}
+
+.action-btns{
+    margin-top: 30px;
+}
+
+.action-btn{
+    width: 130px;
+    height: 40px;
+    background: #fe5e35;
+    border: none;
+    border-radius: 50px;
+    margin-right: 20px;
+    color: #ffffff;
+}
+
+.right-section{
+    position: relative;
+    top: 0;
+    right: 0;
+    height: 80vh;
+}
+
+.headphone-div{
+    width: 100%;
+}
+
+.headphone-div img:last-child{
+    position: absolute;
+    top: 0;
+    left: 30px;
+    width: 380px;
+    z-index: 10;
+}
+
+.discount-content{
+    position: absolute;
+    bottom: 210px;
+    left: 15px;
+    z-index: 100;
+    color: #ffffff;
+}
+
+.discount-content h4{
+    font-size: 10px;
+    margin-left: 20px;
+}
+.discount-content h1{
+    font-family: 'Fredoka One';
+    margin-left: 5px;
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.discount{
+    position: absolute;
+    bottom: 180px;
+    left: -3px;
+    z-index: 100;
+    width: 120px;
+    filter: drop-shadow(-5px 1px 1px #ababab);
+}
+
+.dots{
+    position: absolute;
+    bottom: 100px;
+    left: 30px;
+    /* background: #fe5e35; */
+    width: 380px;
+    height: 50px;
+    z-index: 110;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dot{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background: #fbd104;
+    margin-right: 20px;
+}
+
+.tomato-dot{
+    background: #fe5e35;
+}
+
+.black-dot{
+    background: #000000;
+    margin-right: 0;
+}
+
+.right-section .action-btn{
+    position: absolute;
+    bottom: 50px;
+    left: 160px;
+}
